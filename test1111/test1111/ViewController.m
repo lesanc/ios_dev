@@ -32,10 +32,13 @@
     segmentedControl.frame = CGRectMake(60, 200, 200, 40);
     segmentedControl.selectedSegmentIndex = 1;
     [self.view addSubview:segmentedControl];
+    
+//    int i = 9;
+//    NSAssert(i > 9, @"i = %i, 超出范围", i);
 }
 
 - (void)change:(UIPageControl *)pageControl {
-    NSLog(@"%d", pageControl.currentPage);
+    DLog(@"%d", pageControl.currentPage);
 }
 
 - (void)didReceiveMemoryWarning {
