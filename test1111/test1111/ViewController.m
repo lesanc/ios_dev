@@ -26,6 +26,12 @@
     pageControl.currentPageIndicatorTintColor = [UIColor yellowColor];
     [pageControl addTarget:self action:@selector(change:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:pageControl];
+    
+    NSArray *items = @[@"首页", @"现场", @"图片", @"本地"];
+    UISegmentedControl *segmentedControl = [[UISegmentedControl alloc] initWithItems:items];
+    segmentedControl.frame = CGRectMake(60, 200, 200, 40);
+    segmentedControl.selectedSegmentIndex = 1;
+    [self.view addSubview:segmentedControl];
 }
 
 - (void)change:(UIPageControl *)pageControl {
