@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EACC48DE1A368EF500FE4544 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC48DD1A368EF500FE4544 /* main.m */; };
+		EACC48E11A368EF500FE4544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC48E01A368EF500FE4544 /* AppDelegate.m */; };
+		EACC48E41A368EF500FE4544 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC48E31A368EF500FE4544 /* ViewController.m */; };
+		EACC48E71A368EF500FE4544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACC48E51A368EF500FE4544 /* Main.storyboard */; };
+		EACC48E91A368EF500FE4544 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACC48E81A368EF500FE4544 /* Images.xcassets */; };
+		EACC48EC1A368EF500FE4544 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACC48EA1A368EF500FE4544 /* LaunchScreen.xib */; };
+		EACC48F81A368EF500FE4544 /* test_navTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC48F71A368EF500FE4544 /* test_navTests.m */; };
+		EACC49031A36A76400FE4544 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC49021A36A76400FE4544 /* RegisterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EACC48F21A368EF500FE4544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EACC48D01A368EF500FE4544 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EACC48D71A368EF500FE4544;
+			remoteInfo = test_nav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EACC48D81A368EF500FE4544 /* test_nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_nav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACC48DC1A368EF500FE4544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACC48DD1A368EF500FE4544 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EACC48DF1A368EF500FE4544 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EACC48E01A368EF500FE4544 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EACC48E21A368EF500FE4544 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EACC48E31A368EF500FE4544 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EACC48E61A368EF500FE4544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EACC48E81A368EF500FE4544 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EACC48EB1A368EF500FE4544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EACC48F11A368EF500FE4544 /* test_navTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_navTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACC48F61A368EF500FE4544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACC48F71A368EF500FE4544 /* test_navTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_navTests.m; sourceTree = "<group>"; };
+		EACC49011A36A76400FE4544 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		EACC49021A36A76400FE4544 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EACC48D51A368EF500FE4544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACC48EE1A368EF500FE4544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EACC48CF1A368EF500FE4544 = {
+			isa = PBXGroup;
+			children = (
+				EACC48DA1A368EF500FE4544 /* test_nav */,
+				EACC48F41A368EF500FE4544 /* test_navTests */,
+				EACC48D91A368EF500FE4544 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EACC48D91A368EF500FE4544 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EACC48D81A368EF500FE4544 /* test_nav.app */,
+				EACC48F11A368EF500FE4544 /* test_navTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EACC48DA1A368EF500FE4544 /* test_nav */ = {
+			isa = PBXGroup;
+			children = (
+				EACC48DF1A368EF500FE4544 /* AppDelegate.h */,
+				EACC48E01A368EF500FE4544 /* AppDelegate.m */,
+				EACC48E21A368EF500FE4544 /* ViewController.h */,
+				EACC48E31A368EF500FE4544 /* ViewController.m */,
+				EACC48E51A368EF500FE4544 /* Main.storyboard */,
+				EACC48E81A368EF500FE4544 /* Images.xcassets */,
+				EACC48EA1A368EF500FE4544 /* LaunchScreen.xib */,
+				EACC48DB1A368EF500FE4544 /* Supporting Files */,
+				EACC49011A36A76400FE4544 /* RegisterViewController.h */,
+				EACC49021A36A76400FE4544 /* RegisterViewController.m */,
+			);
+			path = test_nav;
+			sourceTree = "<group>";
+		};
+		EACC48DB1A368EF500FE4544 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EACC48DC1A368EF500FE4544 /* Info.plist */,
+				EACC48DD1A368EF500FE4544 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EACC48F41A368EF500FE4544 /* test_navTests */ = {
+			isa = PBXGroup;
+			children = (
+				EACC48F71A368EF500FE4544 /* test_navTests.m */,
+				EACC48F51A368EF500FE4544 /* Supporting Files */,
+			);
+			path = test_navTests;
+			sourceTree = "<group>";
+		};
+		EACC48F51A368EF500FE4544 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EACC48F61A368EF500FE4544 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EACC48D71A368EF500FE4544 /* test_nav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACC48FB1A368EF500FE4544 /* Build configuration list for PBXNativeTarget "test_nav" */;
+			buildPhases = (
+				EACC48D41A368EF500FE4544 /* Sources */,
+				EACC48D51A368EF500FE4544 /* Frameworks */,
+				EACC48D61A368EF500FE4544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test_nav;
+			productName = test_nav;
+			productReference = EACC48D81A368EF500FE4544 /* test_nav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EACC48F01A368EF500FE4544 /* test_navTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACC48FE1A368EF500FE4544 /* Build configuration list for PBXNativeTarget "test_navTests" */;
+			buildPhases = (
+				EACC48ED1A368EF500FE4544 /* Sources */,
+				EACC48EE1A368EF500FE4544 /* Frameworks */,
+				EACC48EF1A368EF500FE4544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EACC48F31A368EF500FE4544 /* PBXTargetDependency */,
+			);
+			name = test_navTests;
+			productName = test_navTests;
+			productReference = EACC48F11A368EF500FE4544 /* test_navTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EACC48D01A368EF500FE4544 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = lixianke;
+				TargetAttributes = {
+					EACC48D71A368EF500FE4544 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EACC48F01A368EF500FE4544 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EACC48D71A368EF500FE4544;
+					};
+				};
+			};
+			buildConfigurationList = EACC48D31A368EF500FE4544 /* Build configuration list for PBXProject "test_nav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EACC48CF1A368EF500FE4544;
+			productRefGroup = EACC48D91A368EF500FE4544 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EACC48D71A368EF500FE4544 /* test_nav */,
+				EACC48F01A368EF500FE4544 /* test_navTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EACC48D61A368EF500FE4544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACC48E71A368EF500FE4544 /* Main.storyboard in Resources */,
+				EACC48EC1A368EF500FE4544 /* LaunchScreen.xib in Resources */,
+				EACC48E91A368EF500FE4544 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACC48EF1A368EF500FE4544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EACC48D41A368EF500FE4544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACC48E41A368EF500FE4544 /* ViewController.m in Sources */,
+				EACC48E11A368EF500FE4544 /* AppDelegate.m in Sources */,
+				EACC48DE1A368EF500FE4544 /* main.m in Sources */,
+				EACC49031A36A76400FE4544 /* RegisterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACC48ED1A368EF500FE4544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACC48F81A368EF500FE4544 /* test_navTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EACC48F31A368EF500FE4544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EACC48D71A368EF500FE4544 /* test_nav */;
+			targetProxy = EACC48F21A368EF500FE4544 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EACC48E51A368EF500FE4544 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACC48E61A368EF500FE4544 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EACC48EA1A368EF500FE4544 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACC48EB1A368EF500FE4544 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EACC48F91A368EF500FE4544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EACC48FA1A368EF500FE4544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EACC48FC1A368EF500FE4544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = test_nav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EACC48FD1A368EF500FE4544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = test_nav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EACC48FF1A368EF500FE4544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = test_navTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_nav.app/test_nav";
+			};
+			name = Debug;
+		};
+		EACC49001A368EF500FE4544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = test_navTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_nav.app/test_nav";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EACC48D31A368EF500FE4544 /* Build configuration list for PBXProject "test_nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACC48F91A368EF500FE4544 /* Debug */,
+				EACC48FA1A368EF500FE4544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACC48FB1A368EF500FE4544 /* Build configuration list for PBXNativeTarget "test_nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACC48FC1A368EF500FE4544 /* Debug */,
+				EACC48FD1A368EF500FE4544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EACC48FE1A368EF500FE4544 /* Build configuration list for PBXNativeTarget "test_navTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACC48FF1A368EF500FE4544 /* Debug */,
+				EACC49001A368EF500FE4544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EACC48D01A368EF500FE4544 /* Project object */;
+}

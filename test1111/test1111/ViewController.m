@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.view.backgroundColor = [UIColor purpleColor];
+    
     UIPageControl *pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(0, 100, 320, 40)];
     pageControl.backgroundColor = [UIColor grayColor];
     pageControl.numberOfPages = 5;
@@ -33,12 +35,34 @@
     segmentedControl.selectedSegmentIndex = 1;
     [self.view addSubview:segmentedControl];
     
+    UIActivityIndicatorView *indicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+    indicatorView.tag = 111;
+    indicatorView.center = CGPointMake(160, 320);
+    [self.view addSubview:indicatorView];
+    [indicatorView startAnimating];
+    
+    [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(hide:) userInfo:indicatorView repeats:NO];
+    
+    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
+    
 //    int i = 9;
 //    NSAssert(i > 9, @"i = %i, 超出范围", i);
 }
 
 - (void)change:(UIPageControl *)pageControl {
-    DLog(@"%d", pageControl.currentPage);
+    UIActivityIndicatorView *view = (UIActivityIndicatorView *)[self.view viewWithTag:111];
+    [view startAnimating];
+    
+    [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(hide:) userInfo:view repeats:NO];
+    
+    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
+    
+    DLog(@"%ld", (long)pageControl.currentPage);
+}
+
+- (void)hide:(NSTimer *)timer {
+    [timer.userInfo stopAnimating];
+    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
 }
 
 - (void)didReceiveMemoryWarning {
