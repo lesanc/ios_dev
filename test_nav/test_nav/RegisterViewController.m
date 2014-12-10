@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [_useridTextField resignFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -37,6 +38,17 @@
 - (IBAction)done:(id)sender {
     [self dismissViewControllerAnimated:YES completion:^{
         NSLog(@"dismiss");
+    }];
+}
+
+- (IBAction)save:(id)sender {
+
+    NSString *text = _useridTextField.text;
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"UserIdChange" object:text];
+    
+    [self dismissViewControllerAnimated:YES completion:^{
+        NSLog(@"dismiss by sava");
     }];
 }
 @end

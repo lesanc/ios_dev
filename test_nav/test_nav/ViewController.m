@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userIdChange:) name:@"UserIdChange" object:nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,4 +34,15 @@
         NSLog(@"present");
     }];
 }
+
+- (void)userIdChange:(NSNotification *)notification {
+    NSString *text = notification.object;
+    _userIdTextField.text = text;
+    NSLog(@"%@", text);
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    [self.view endEditing:YES];
+}
+
 @end

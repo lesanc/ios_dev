@@ -10,6 +10,10 @@
 
 @interface RegisterViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *useridTextField;
+
 - (IBAction)done:(id)sender;
+
+- (IBAction)save:(id)sender;
 
 @end

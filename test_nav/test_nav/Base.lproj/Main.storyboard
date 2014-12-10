@@ -95,6 +95,9 @@
                             <constraint firstItem="I2g-eQ-U5D" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="zDE-OA-Ml3"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="userIdTextField" destination="a9Y-s6-5Ig" id="6Qe-Yn-q2O"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -120,7 +123,11 @@
                                                 <action selector="done:" destination="5zC-LJ-kj3" id="Man-se-9ir"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="e57-eC-fRC"/>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="e57-eC-fRC">
+                                            <connections>
+                                                <action selector="save:" destination="5zC-LJ-kj3" id="Xtb-a3-wvB"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -151,6 +158,9 @@
                             <constraint firstItem="Aa1-yw-1O5" firstAttribute="leading" secondItem="MF2-tM-pe9" secondAttribute="leading" constant="30" id="wPd-4t-sox"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="useridTextField" destination="Elr-bS-wO0" id="qqt-ZH-4AX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g9c-9Y-A3R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
