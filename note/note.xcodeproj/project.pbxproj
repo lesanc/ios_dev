@@ -16,6 +16,7 @@
 		EA57DC621A42630900E882AA /* noteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57DC611A42630900E882AA /* noteTests.m */; };
 		EA57DC6C1A42632600E882AA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA57DC6B1A42632600E882AA /* libsqlite3.dylib */; };
 		EA57DC6F1A42635300E882AA /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57DC6E1A42635300E882AA /* Note.m */; };
+		EA57DC721A4263F400E882AA /* NoteDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57DC711A4263F400E882AA /* NoteDAO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		EA57DC6B1A42632600E882AA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		EA57DC6D1A42635300E882AA /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
 		EA57DC6E1A42635300E882AA /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		EA57DC701A4263F400E882AA /* NoteDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDAO.h; sourceTree = "<group>"; };
+		EA57DC711A4263F400E882AA /* NoteDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDAO.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 				EA57DC451A42630900E882AA /* Supporting Files */,
 				EA57DC6D1A42635300E882AA /* Note.h */,
 				EA57DC6E1A42635300E882AA /* Note.m */,
+				EA57DC701A4263F400E882AA /* NoteDAO.h */,
+				EA57DC711A4263F400E882AA /* NoteDAO.m */,
 			);
 			path = note;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA57DC721A4263F400E882AA /* NoteDAO.m in Sources */,
 				EA57DC4E1A42630900E882AA /* ViewController.m in Sources */,
 				EA57DC4B1A42630900E882AA /* AppDelegate.m in Sources */,
 				EA57DC481A42630900E882AA /* main.m in Sources */,
